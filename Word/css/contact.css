@@ -1,0 +1,89 @@
+
+.contact-container {
+  display: flex;
+  justify-content: center; /* Centers the contact section horizontally */
+  align-items: center; /* Centers it vertically */
+  min-height: 100vh; /* Ensures full page height */
+}
+.contact-section {
+  text-align: center;
+  max-width: 90%; /* Adjusts width for responsiveness */
+  width: 900px;  /* Fixed width for readability */
+  background: var;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+h2 {
+  color: var(--black);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  color: var(--black);
+  line-height: 1.9;
+  word-wrap: break-word; /* Prevents long words from overflowing */
+    text-align: center;
+}
+
+.feedback-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  text-align: center;
+}
+
+
+.input-group {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+  height: 70px;
+}
+
+#phone{
+
+  height: 60px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input, textarea{
+  width: 100%;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  height: 120px;
+  resize: none;
+}
+
+.email-btn {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  background: var(--black);
+  color: white;
+  height: 70px;
+  width: 170px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+
